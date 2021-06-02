@@ -8,7 +8,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import com.example.beans.Employee;
 
 @SpringBootApplication
-public class SpringBootEmpApplication extends SpringBootServletInitialize{
+public class SpringBootEmpApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context=SpringApplication.run(SpringBootEmpApplication.class, args);
